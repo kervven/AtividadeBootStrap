@@ -1,0 +1,5 @@
+.carousel-inner img {
+    height: 10vh; /* 20% da altura da tela */
+    width: 100%; /* 100% da largura */
+    object-fit: cover; /* Redimensiona a imagem para preencher a área do slide */
+} 
