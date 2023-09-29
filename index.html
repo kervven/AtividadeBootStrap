@@ -7,6 +7,15 @@
     <title>Rosalía</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/meu-css.css">
+
+    <script>
+        document.getElementById('link-de-redirecionamento').addEventListener('click', function (event) {
+          event.preventDefault(); // Evita que o link seja seguido imediatamente
+          $('#avisoModal').modal('show'); // Ativa o modal
+        });
+    </script>
 </head>
 
 <body>
@@ -68,6 +77,88 @@
         Nesse mesmo ano, lançou "Un Millón de Veces". A música fazia parte do álbum beneficente Tres Guitarras Para el Autismo.[23] Todos os rendimentos beneficiaram estudos sobre o autismo.[23] Aos 20 anos, trabalhou como professora de flamenco e treinadora vocal.</p>
     <p class="container">Em 2016, colaborou com o rapper espanhol e ex-namorado <b>C. Tangana em "Antes de Morirme"</b>.A música foi um sucesso e entrou na parada de singles espanhola em 2018, após o sucesso de outro trabalho de Rosalía.
         A colaboração recebeu atenção internacional quando foi destaque na trilha sonora da primeira temporada do programa espanhol da <b>Netflix Elite (2018)</b></p>
+    <hr>
+        <h1 class="text-center my-5">Seus Álbuns</h1>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 container-fluid mb-5">
+        <div class="col">
+            <div class="card pb-4">
+                <img src="img/motomami2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">MOTOMAMI</h5>
+                    <p class="card-text">
+                        "Motomami" é o terceiro álbum de estúdio da cantora espanhola Rosalía.
+                        Lançado em 2022, o álbum representa uma fusão única de estilos musicais, combinando flamenco, pop e elementos de música urbana.
+                        As músicas exploram temas de amor, paixão e autoafirmação, com letras poderosas e uma produção musical inovadora.
+                        "Motomami" solidifica a posição de Rosalía como uma das artistas mais inovadoras e influentes da música contemporânea, oferecendo uma experiência auditiva envolvente e única para os ouvintes.</p>
+                </div>
+                <div class="d-grid gap-2 d-md-block text-center">
+                    <button class="btn btn-success" type="button"><a class="text-light text-decoration-none" target="_blank" href="https://open.spotify.com/intl-pt/album/3zbiiu3JTibw0esC7eoMXr?si=oxIhzn8vQmGCEKVAUNlDbw">Ouça no Spotify <i class="fab fa-spotify"></i></a></button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card pb-5">
+                <img src="img/losangeles.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Los Ángeles</h5>
+                    <p class="card-text">
+                        "Los Ángeles" é o álbum de estreia da cantora espanhola Rosalía, lançado em 2017.
+                        Este álbum é uma homenagem à tradição flamenca e apresenta uma abordagem mais crua e tradicional do gênero. As músicas de "Los Ángeles" destacam a impressionante voz de Rosalía e aprofundam-se nas raízes do flamenco, explorando temas de amor e saudade.
+                        Este álbum foi um marco inicial em sua carreira, estabelecendo sua reputação como uma das artistas mais talentosas e inovadoras da música flamenca contemporânea.</p>
+                </div>
+                <div class="d-grid gap-2 d-md-block text-center">
+                    <button class="btn btn-success" type="button"><a class="text-light text-decoration-none" target="_blank" href="https://open.spotify.com/intl-pt/album/7mGsUwMuhsKiOKx9X9k7tj?si=3j9Q8HLSRM2Suyfg_L15XA">Ouça no Spotify <i class="fab fa-spotify"></i></a></button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="img/elmalquerer.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">El Mal Querer</h5>
+                    <p class="card-text">"El Mal Querer" é o segundo álbum de estúdio da cantora espanhola Rosalía, lançado em 2018. 
+                        Este álbum é uma fusão audaciosa de flamenco com elementos contemporâneos, como música urbana e eletrônica. 
+                        Inspirado na obra "Flamenca" do século 13, o álbum conta a história de uma mulher aprisionada por um relacionamento tóxico. 
+                        As músicas exploram temas de amor, poder e liberdade, enquanto a produção musical inovadora de Rosalía a consolidou como uma artista revolucionária. 
+                        "El Mal Querer" foi um marco crucial em sua carreira, ampliando os limites do flamenco e conquistando aclamação crítica.</p>
+                </div>
+                <div class="d-grid gap-2 d-md-block text-center">
+                    <button class="btn btn-success" type="button">
+                        <a class="text-light text-decoration-none" target="_blank" href="https://open.spotify.com/intl-pt/album/355bjCHzRJztCzaG5Za4gq?si=-oY0OgUQQTqcFfyXHC5JMA">Ouça no Spotify <i class="fab fa-spotify"></i></a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
+        </ul>
+    </nav>
+
+    <footer class="bg-dark text-light mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2023 Kerven Kildhery. Todos os direitos reservados.</p>
+                    <p>&copy; 2023 kervensilvva@gmail.com</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-unstyled social-icons">
+                        <li><a href="https://twitter.com/rosalia" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/rosalia.vt/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>

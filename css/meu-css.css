@@ -4,3 +4,7 @@
    /* object-fit: cover; /* Redimensiona a imagem para preencher a área do slide */
 /*} */
 
+.text-secondary:hover {
+    color: #fff;
+}
+
