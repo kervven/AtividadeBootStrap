@@ -9,13 +9,6 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/meu-css.css">
-
-    <script>
-        document.getElementById('link-de-redirecionamento').addEventListener('click', function (event) {
-          event.preventDefault(); // Evita que o link seja seguido imediatamente
-          $('#avisoModal').modal('show'); // Ativa o modal
-        });
-    </script>
 </head>
 
 <body>
@@ -93,7 +86,32 @@
                         "Motomami" solidifica a posição de Rosalía como uma das artistas mais inovadoras e influentes da música contemporânea, oferecendo uma experiência auditiva envolvente e única para os ouvintes.</p>
                 </div>
                 <div class="d-grid gap-2 d-md-block text-center">
-                    <button class="btn btn-success" type="button"><a class="text-light text-decoration-none" target="_blank" href="https://open.spotify.com/intl-pt/album/3zbiiu3JTibw0esC7eoMXr?si=oxIhzn8vQmGCEKVAUNlDbw">Ouça no Spotify <i class="fab fa-spotify"></i></a></button>
+                    <button class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <a class="text-light text-decoration-none">Ouça no Spotify 
+                            <i class="fab fa-spotify"></i>
+                        </a>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Você será tranferido de página</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                Você será tranferido para Spotify
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                    <button type="button" class="btn btn-primary">
+                                        <a class="text-light text-decoration-none" target="_blank" href="https://open.spotify.com/intl-pt/album/3zbiiu3JTibw0esC7eoMXr?si=KPhDtgjiSouh6jjCSGgFHg">
+                                            Ouvir Album
+                                        </a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -108,7 +126,32 @@
                         Este álbum foi um marco inicial em sua carreira, estabelecendo sua reputação como uma das artistas mais talentosas e inovadoras da música flamenca contemporânea.</p>
                 </div>
                 <div class="d-grid gap-2 d-md-block text-center">
-                    <button class="btn btn-success" type="button"><a class="text-light text-decoration-none" target="_blank" href="https://open.spotify.com/intl-pt/album/7mGsUwMuhsKiOKx9X9k7tj?si=3j9Q8HLSRM2Suyfg_L15XA">Ouça no Spotify <i class="fab fa-spotify"></i></a></button>
+                    <button class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        <a class="text-light text-decoration-none">Ouça no Spotify 
+                            <i class="fab fa-spotify"></i>
+                        </a>
+                    </button>
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Você será tranferido de página</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                Você será tranferido para Spotify
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                    <button type="button" class="btn btn-primary">
+                                        <a class="text-light text-decoration-none" target="_blank" href="https://open.spotify.com/intl-pt/album/7mGsUwMuhsKiOKx9X9k7tj?si=3j9Q8HLSRM2Suyfg_L15XA">
+                                            Ouvir Album
+                                        </a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -124,9 +167,32 @@
                         "El Mal Querer" foi um marco crucial em sua carreira, ampliando os limites do flamenco e conquistando aclamação crítica.</p>
                 </div>
                 <div class="d-grid gap-2 d-md-block text-center">
-                    <button class="btn btn-success" type="button">
-                        <a class="text-light text-decoration-none" target="_blank" href="https://open.spotify.com/intl-pt/album/355bjCHzRJztCzaG5Za4gq?si=-oY0OgUQQTqcFfyXHC5JMA">Ouça no Spotify <i class="fab fa-spotify"></i></a>
+                    <button class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                        <a class="text-light text-decoration-none">Ouça no Spotify 
+                            <i class="fab fa-spotify"></i>
+                        </a>
                     </button>
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Você será tranferido de página</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                Você será tranferido para Spotify
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                    <button type="button" class="btn btn-primary">
+                                        <a class="text-light text-decoration-none" target="_blank" href="https://open.spotify.com/intl-pt/album/355bjCHzRJztCzaG5Za4gq?si=n2iie4InTi6VCbLLNuEZKw">
+                                            Ouvir Album
+                                        </a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
